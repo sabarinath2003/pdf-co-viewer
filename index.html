@@ -1,0 +1,23 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDF Co-Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>PDF Co-Viewer</h1>
+  <canvas id="pdf-canvas"></canvas>
+  <div class="controls">
+    <button id="prev-page">Previous Page</button>
+    <span id="page-info">Page 1</span>
+    <button id="next-page">Next Page</button>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
